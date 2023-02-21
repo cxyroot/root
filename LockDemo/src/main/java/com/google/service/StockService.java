@@ -1,7 +1,7 @@
 package com.google.service;
 
 import com.google.bean.Stock;
-import org.apache.tomcat.jni.Time;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.core.RedisOperations;
@@ -9,7 +9,9 @@ import org.springframework.data.redis.core.SessionCallback;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
+
 import java.util.List;
+import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -80,7 +82,11 @@ public class StockService {
     }
 
     public void deduct6() {
-        Boolean lock = redisTemplate.opsForValue().setIfAbsent("lock", "111",3,TimeUnit.SECONDS);
+
+        String uuid = UUID.randomUUID().toString();
+
+
+        Boolean lock = redisTemplate.opsForValue().setIfAbsent("lock", uuid,3,TimeUnit.SECONDS);
         while (!lock) {
             try {
                 Thread.sleep(50);
@@ -103,8 +109,19 @@ public class StockService {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            redisTemplate.delete("lock");
+            /*if (StringUtils.equals(redisTemplate.opsForValue().get("lock"),uuid)){
+                redisTemplate.delete("lock");
+            }*/
+            if (uuid.equals(redisTemplate.opsForValue().get("lock"))){
+                redisTemplate.delete("lock");
+            }
         }
+    }
+
+
+    public void deductByLua() {
+        //lua 脚本程序
+
     }
 
     public void deduct() {

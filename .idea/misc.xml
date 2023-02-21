@@ -5,6 +5,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/JvmDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Hadoop01_hdsf/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/CommonDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Hadoop02_MapReduce/pom.xml" />
+        <option value="$PROJECT_DIR$/Hadoop03_MapReduce_Partition/pom.xml" />
+        <option value="$PROJECT_DIR$/Hadoop04/pom.xml" />
+        <option value="$PROJECT_DIR$/HBaseDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper001_ApiDemo/pom.xml" />
       </list>
     </option>
   </component>

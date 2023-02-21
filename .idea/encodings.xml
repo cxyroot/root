@@ -2,7 +2,14 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonDemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FlinkDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HBaseDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hadoop01_hdsf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JvmDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JvmDemo/对象的创建.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/KafkaDemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LockDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedisDemo" charset="UTF-8" />
   </component>
 </project>

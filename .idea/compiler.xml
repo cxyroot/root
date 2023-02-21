@@ -2,12 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CommonDemo" />
         <module name="FlinkDemo" />
+        <module name="Hadoop01_hdsf" />
+        <module name="Hadoop02_MapReduce" />
+        <module name="Hadoop03_MapReduce_Partition" />
+        <module name="Hadoop04" />
+        <module name="HBaseDemo" />
+        <module name="JvmDemo" />
+        <module name="KafkaDemo" />
         <module name="LockDemo" />
+        <module name="RedisDemo" />
+        <module name="zookeeper001_ApiDemo" />
       </profile>
     </annotationProcessing>
   </component>
