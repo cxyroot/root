@@ -11,6 +11,11 @@
     <modules>
         <module>LockDemo</module>
         <module>FlinkDemo</module>
+        <module>ThreadDemo</module>
+        <module>ModeDemo</module>
+        <module>FlinkDemo02-Java</module>
+        <module>RedisDemo2</module>
+        <module>Java9</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

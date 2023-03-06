@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Mybatis" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -15,6 +21,22 @@
         <option value="$PROJECT_DIR$/Hadoop04/pom.xml" />
         <option value="$PROJECT_DIR$/HBaseDemo/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper001_ApiDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring05/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring06-Beans/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring07-import/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-activiti-master/pom.xml" />
+        <option value="$PROJECT_DIR$/Auto360/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty001/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty002-FirstDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty003-SecondDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty003-SocketDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty006WebSocketDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBaits003Person/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis001HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-boot-activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis003Mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis004ResultMap/pom.xml" />
       </list>
     </option>
   </component>

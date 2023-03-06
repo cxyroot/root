@@ -1,15 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Auto360" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Auto360/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Auto360/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommonDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FlinkDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlinkDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlinkDemo02-Java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlinkDemo02-Java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlinkDemo02-Java/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HBaseDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HBaseDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HBaseDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hadoop01_hdsf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hadoop01_hdsf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hadoop01_hdsf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java9/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java9/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JvmDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JvmDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JvmDemo/src/main/java/com/google/test/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JvmDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JvmDemo/对象的创建.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/KafkaDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/KafkaDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/KafkaDemo/src/main/java/kafka/DistributeClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/KafkaDemo/src/main/java/kafka/DistributeServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/KafkaDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LockDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LockDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LockDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ModeDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ModeDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ModeDemo/src/main/java/mode/impl/AbstractLogger.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ModeDemo/src/main/java/mode/logger/AbstractLogger.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ModeDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mybatis/src/main/java/kafka/DBHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Mybatis/src/main/java/kafka/Demo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Netty001/src/main/java/index" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Netty002-FirstDemo/src/main/java/com/jingyougroup/first/TestHttpServerHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Netty006WebSocketDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty006WebSocketDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RedisDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedisDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedisDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedisDemo2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedisDemo2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedisDemo2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-boot-activiti" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-boot-activiti/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-boot-activiti/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring05" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring05/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring05/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring06-Beans" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring06-Beans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring07-import" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring07-import/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring07-import/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ThreadDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ThreadDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ThreadDemo/src/main/java/com/google/thread/ThreadDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ThreadDemo/src/main/resources" charset="UTF-8" />
   </component>
 </project>

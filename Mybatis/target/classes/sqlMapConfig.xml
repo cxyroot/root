@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<typeAliases>
+		<typeAlias  type="com.google.entity.CustomerEntity" alias="customerEntity"/>
+		<typeAlias  type="com.google.entity.SurveyAnswerEntity" alias="surveyAnswerEntity"/>
+	</typeAliases>
+
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC"/>
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver" />
+				<property name="url" value="jdbc:mysql://82.156.185.58:3406/wcl_crm" />
+				<property name="username" value="dba" />
+				<property name="password" value="dba1z2x3c4v" />
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<!-- 映射文件的位置 -->
+		<mapper resource="com.google.mapper.CustomerEntityMapper.xml" />
+		<mapper resource="com.google.mapper.SurveyAnswerMapper.xml" />
+	</mappers>
+</configuration>

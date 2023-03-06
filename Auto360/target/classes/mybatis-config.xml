@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+
+<configuration>
+	<!-- setting  -->
+	<!-- 别名 -->
+	<typeAliases>
+		<!-- <package name="org.langyue.bean"/> -->
+		<package name="com.google.bean"/>
+	</typeAliases>
+	<!-- Mapper位置 -->
+</configuration>

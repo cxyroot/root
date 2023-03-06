@@ -7,19 +7,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CommonDemo" />
-        <module name="FlinkDemo" />
-        <module name="Hadoop01_hdsf" />
-        <module name="Hadoop02_MapReduce" />
+        <module name="RedisDemo2" />
+        <module name="ThreadDemo" />
         <module name="Hadoop03_MapReduce_Partition" />
-        <module name="Hadoop04" />
         <module name="HBaseDemo" />
+        <module name="Hadoop02_MapReduce" />
         <module name="JvmDemo" />
-        <module name="KafkaDemo" />
-        <module name="LockDemo" />
         <module name="RedisDemo" />
+        <module name="Spring05" />
+        <module name="Auto360" />
+        <module name="Hadoop04" />
+        <module name="Spring-boot-activiti" />
+        <module name="Netty001" />
+        <module name="Hadoop01_hdsf" />
+        <module name="Netty003-SocketDemo" />
+        <module name="Spring06-Beans" />
+        <module name="FlinkDemo02-Java" />
+        <module name="Spring07-import" />
         <module name="zookeeper001_ApiDemo" />
+        <module name="FlinkDemo" />
+        <module name="KafkaDemo" />
+        <module name="MyBatis004ResultMap" />
+        <module name="com.google" />
+        <module name="ModeDemo" />
+        <module name="CommonDemo" />
+        <module name="Netty002-FirstDemo" />
+        <module name="LockDemo" />
+        <module name="MyBatis003Mapper" />
+        <module name="Netty006WebSocketDemo" />
+        <module name="MyBatis001-HelloWorld" />
+        <module name="Java9" />
+        <module name="Netty003-SecondDemo" />
+        <module name="MyBaits003Person" />
+        <module name="Mybatis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JdbcDemo" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
